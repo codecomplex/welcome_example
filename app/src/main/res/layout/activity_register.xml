@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:title="@string/title_sign_up"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sign_up"
+        android:textSize="@dimen/title_text_size"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"
+        android:gravity="top"
+        android:orientation="vertical">
+        <!-- 45dp -->
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_edit_text_height"
+            android:layout_marginTop="10dp"
+            android:inputType="phone"
+            android:hint="@string/input_phone_number"/>
+        <!-- 23dp -->
+        <com.suwish.welcome.widget.AuthCodeView
+            android:id="@+id/view_auth_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="11dp"/>
+
+        <com.suwish.welcome.widget.CountryRegionView
+            android:id="@+id/view_region"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_edit_text_height"
+            android:layout_marginTop="11dp"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_edit_text_height"
+            android:layout_marginTop="11dp"
+            android:inputType="textPassword"
+            android:hint="@string/input_account_password"/>
+        <EditText
+            android:id="@+id/edit_password_again"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/widget_edit_text_height"
+            android:layout_marginTop="11dp"
+            android:inputType="textPassword"
+            android:hint="@string/input_account_password_again"/>
+        <CheckBox
+            android:id="@+id/input_show_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/check_box_show_password"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sign_up"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- scaledDensity 3.0 -->
+
+    <dimen name="content_margin_left">36dp</dimen>
+    <dimen name="content_margin_right">36dp</dimen>
+    
+    <dimen name="content_margin_top">75dp</dimen>
+    <dimen name="content_margin_bottom">48dp</dimen> <!-- @android:dimen/navigation_bar_height 为了navigator -->
+
+    <dimen name="content_margin_title">36dp</dimen>
+    <dimen name="content_welcome_margin_top">120dp</dimen>
+
+    <dimen name="content_text_size">17sp</dimen>
+    <dimen name="content_text_margin">10dp</dimen>
+    <dimen name="content_summary_text_size">10sp</dimen>
+
+    <dimen name="title_text_size">30sp</dimen>
+
+    <dimen name="text_hint_margin">10dp</dimen>
+
+    <dimen name="widget_edit_text_height">42dp</dimen>
+
+    <dimen name="item_margin">2dp</dimen>
+    <dimen name="item_padding">12dp</dimen>
+    <dimen name="item_text_size">20sp</dimen> <!-- 44 -->
+</resources>

@@ -1,0 +1,12 @@
+# ignore file like build cache ide config
+
+#Android Stuido / IDEA config file
+*.iml
+
+.gradle
+
+/build
+
+.DS_Store
+
+/.idea

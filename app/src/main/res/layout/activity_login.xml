@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:title="@string/title_sign_in"/>
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"
+        android:text="@string/title_sign_in"
+        android:textSize="@dimen/title_text_size"/>
+
+    <!-- 45dp -->
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"
+        android:inputType="phone"
+        android:hint="@string/input_phone_number"/>
+    <!-- 23dp -->
+    <com.suwish.welcome.widget.AuthCodeView
+        android:id="@+id/view_auth_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="11dp"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"
+        android:orientation="horizontal"/>
+
+    <com.suwish.welcome.widget.CountryRegionView
+        android:id="@+id/view_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/content_margin_left"
+        android:paddingEnd="@dimen/content_margin_right"
+        android:layout_marginBottom="40dp"
+        android:text="@string/button_sign_in"/>
+</LinearLayout>

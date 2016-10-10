@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Account</string>
+
+    <string name="title_select_language">Choose Language</string>
+    <string name="title_select_local">Select locale</string>
+    <string name="title_wifi_settings">WLAN Settings</string>
+    <string name="title_agreement">Agreement and terms</string>
+
+    <string name="title_region_code">Region Code</string>
+
+    <string name="subtitle_wifi_settings">Select WLAN</string>
+
+    <string name="label_wifi">WLAN</string>
+
+    <string name="title_sign_in">Login</string>
+    <string name="title_sign_up">Sign Up</string>
+
+    <string name="summary_initial_welcome">Welcome</string>
+    <string name="summary_initial_setting">Device will be initialized settings, click the next button</string>
+
+    <string name="summary_welcome_line_one">Welcome to use VVETIME smart projector phone</string>
+    <string name="summary_welcome_line_two">Invite you to join us</string>
+
+    <string name="wifi_state_connected">Connected</string>
+
+    <string name="input_phone_number">Phone Number</string>
+    <string name="input_auth_code">Auth Code</string>
+    <string name="input_account_password">Password</string>
+    <string name="input_account_password_again">Password Again</string>
+
+    <string name="button_next_step">Next</string>
+    <string name="button_previous_step">Previous</string>
+
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_sign_in">Login</string>
+    <string name="button_get_auth_code">Auth Code</string>
+    <string name="button_get_region">Reloading</string>
+
+    <string name="general_wait">Please Wait&#8230;&#8230;&#8230;</string>
+
+    <string name="label_agree_agreement">Agree with the terms</string>
+
+    <string name="dialog_message_need_agree_agreement">You need agree with the terms.</string>
+
+    <string name="dialog_message_wifi_password_input">Please input WIFI wireless hotspot "%1$s"`s password。The password is used to auto connect the wireless hotspot.</string>
+    <string name="dialog_message_wifi_connected">"%1$s" is connected.</string>
+
+    <string name="dialog_message_phone_number_necessary">Phone number can not be empty</string>
+    <string name="dialog_message_phone_number_format_error">Phone number format error</string>
+    <string name="dialog_message_auth_code_necessary">Auth Code can not be empty</string>
+    <string name="dialog_message_password_necessary">Password can not be empty</string>
+    <string name="dialog_message_password_twice_different">The twice that input password is different！</string>
+
+    <string name="dialog_message_loading">Loading&#8230;&#8230;&#8230;</string>
+    <string name="dialog_message_unknown_error">An unknown error occurred, try it later</string>
+
+    <string name="dialog_message_sign_up_success">Sign up success, Welcome</string>
+    <string name="dialog_message_sign_in_success">Login success, Welcome</string>
+    <string name="dialog_message_sign_success">Welcome</string>
+
+    <string name="dialog_message_region_code_invalid">Region code invalid</string>
+    <string name="dialog_message_region_code_data_error">Region code error, try it later</string>
+
+    <string name="dialog_message_permission_denied_for_wifi">Permission denied，Unable to obtain WIFI information</string>
+    <string name="dialog_message_permission_denied_for_ime">Permission denied，Unable to read phone state</string>
+
+    <string name="dialog_message_permission_denied">Permission denied</string>
+
+    <string name="dialog_content_password_hit">Password</string>
+    <string name="check_box_show_password">Plaintext</string>
+
+    <string name="empty"> </string>
+</resources>
